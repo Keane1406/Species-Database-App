@@ -3,7 +3,7 @@ name: AI Backend Tests
 on:
   workflow_dispatch:
   pull_request:
-    branches: ["main"]
+    branches: ["master"]
     paths:
       - "AI/**"
       - "backend/ai_routes.py"
